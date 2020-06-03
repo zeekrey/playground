@@ -1,12 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import LearnContext from './learnContext'
+// import LearnContext from './learnContext'
+import { Wizard } from './wizard'
 
 const App = () => (
     <div>
         <div>
-            <LearnContext />
+            {/* <LearnContext /> */}
+            <Wizard />
         </div>
     </div>
 )
